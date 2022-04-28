@@ -1,0 +1,527 @@
+body {
+    position: relative;
+    margin: 0px;
+    width: 1287px;
+    height: 1701px;
+}
+
+/******************MENU VERTICAL - SLACA 2019************************/
+
+.main-menu {
+    display: flex;
+}
+
+.side-div {
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+    z-index: 1;
+}
+
+.slaca-logo {
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 3px 2px 5px #9fa7a1;
+    justify-content: center;
+}
+
+.sub-menu {
+    box-shadow: 3px 2px 5px #9fa7a1;
+    height: 1000%;
+}
+
+.sub-menu img {
+    width: 100%;
+}
+
+.vertical-menu {
+    width: 100%;
+    height: 100%;
+}
+
+/*LINKS DO MENU*/
+.vertical-menu a:hover {
+    background-color: #ffffff;
+}
+  
+.vertical-menu a.active {
+    background-color: #FDF1EB;
+    color: #5C5C5C;
+    border-left: 8px solid rgb(241,132,62);
+}
+
+.vertical-menu a {
+    background-color: #ffffff;
+    color: #725C5C;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(209,209,209)
+}
+
+/***************HEADER CENTRAL**************************/
+
+.center-div {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    background: #ffffff;    
+}
+
+.header-new span /*Cor do título do header central*/ {
+    color: #725C5C;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.header-new {
+    height: 68px;
+    background-color: #FDF1EB;
+    display: flex;
+    font-weight: 400;
+    font-family: 'Roboto';
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*selecionar idioma*/
+.language {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.language select {
+    border: none;
+    outline: 0;
+    padding-top: 3px;
+    background-color: #FDF1EB;
+}
+
+/*EMAIL E FOTO DO PERFIL*/
+
+.user {
+    display: flex;
+}
+
+.user .user-info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 12px;
+    align-items: flex-end;
+}
+
+.user-pic img {
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+
+.user-pic span {    
+    bottom: 25px;
+    position: relative;
+    right: 15px;
+    color: white;
+    background-color: #F85959;
+    padding: 1px 5px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.rodolfo{
+    width: 50px;
+    height: 50px;
+}
+
+/*************MENU E VÍDEO(IMG) CENTRAL*********************************/
+.main-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.mainsub {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.video {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+/****MENU DA DIREITA E IMAGENS****/
+.right-side {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.main-right{
+    display: flex;
+}
+
+.dload {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #ED7839;
+    border-radius: 4px;
+    Width: 120px;
+    Height: 20px;
+    margin-right: 5px;
+    border: 1px solid #00000027;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.star {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #ED7839;
+    border-radius: 4px;
+    width: 40px;
+    height: 31px;
+    margin-right: 5px;
+    border: 1px solid #00000027;
+    cursor: pointer;
+}
+
+.doi {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #ED7839;
+    border-radius: 4px;
+    Width: 40px;
+    Height: 31px;
+    border: 1px solid #00000027;
+    cursor: pointer;
+}
+
+.span-new {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    margin-bottom: 10px;
+}
+
+.details-text /*Titulo "DETALHES"*/{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #4E4E4E;
+}
+
+.right-side {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right-side .main-menu {
+    margin-bottom: 10px;
+}
+
+.panel {
+    border-radius: 3px 3px 0px 0px;
+    height: 441px;
+}
+
+
+
+
+/*********************************/
+.menupts{
+      width: 20px;
+      height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+.panel .subpanel::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.panel .subpanel::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #BFBFBF 14%,#bfbfbf 64%);
+    border-radius: 10px;
+}
+
+.panel .subpanel::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(13deg, #BFBFBF 14%,#bfbfbf 64%);
+}
+
+.panel .subpanel::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: inset 7px 10px 12px #f0f0f0;
+}
+
+.panel .header {
+    background: #FDF1EB;
+    padding: 10px 15px; 
+    border: 1px solid #ECECEC;
+    border-bottom: none;
+}
+
+.discussions .header {
+    background: #FDF1EB;
+    padding: 10px 15px; 
+    border: 1px solid #ECECEC;
+    border-bottom: none; 
+}
+
+.panel .subpanel {
+    padding: 15px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    color: #5C5C5C;
+    overflow-y: scroll;
+    border: 1px solid #ECECEC;
+    height: 82%;
+}
+
+.panel .footer {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #5C5C5C;
+}
+
+.resume {
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    max-height: 11%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.discussions {
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    max-height: 34%;
+    height: 30%;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+
+.resume .header{
+    background: #FDF1EB;
+    padding: 10px 15px; 
+    border: 1px solid #ECECEC;
+    border-bottom: none;
+}
+
+.resume-subpanel{
+    padding: 15px;
+    background: #ffffff;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #5C5C5C;
+    cursor: pointer;
+}
+
+.discussions-subpanel{
+    padding: 15px;
+    background: #ffffff;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #5C5C5C;
+    cursor: pointer;
+}
+
+
+
+
+
+.discussions-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    text-align: center;
+}
+/*Imagens finais*/
+.discussions-image {
+    display: flex;
+    justify-content: center;
+}
+
+.img-size {
+    width: 320px;
+}
+
+.img-galoa {
+    margin-top: 80px;
+}
+
+.heart {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #ED7839;
+    border-radius: 4px;
+    width: 27px;
+    height: 19px;
+    margin-right: 5px;
+    border: 1px solid #00000027;
+    cursor: pointer;
+}
+
+.heart-size {
+    height: auto; 
+    width: auto; 
+    max-width: 15px; 
+    max-height: 15px;
+}
+
+/*******/
+
+.plus-font {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.topics {
+    background: #ffffff;
+    padding: 10px 15px; 
+    border: 1px solid #ECECEC;
+    border-bottom: none;
+    width: 97%;
+    margin-bottom: 30px;
+}
+
+.topics-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+}
+
+
+.topics-align {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+}
